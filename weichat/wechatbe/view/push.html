@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>
+            WeChat后台管理@SysLab
+        </title> 
+  <link href="/weiphp/Public/favicon.ico" type="image/x-icon" rel="shortcut icon" /> 
+  <link rel="stylesheet" type="text/css" href="../css/base.css" media="all" /> 
+  <link rel="stylesheet" type="text/css" href="../css/common.css" media="all" /> 
+  <link rel="stylesheet" type="text/css" href="../css/module.css" /> 
+  <link rel="stylesheet" type="text/css" href="../css/style.css" media="all" /> 
+  <link rel="stylesheet" type="text/css" href="../css/default_color.css" media="all" /> 
+  <link rel="stylesheet" type="text/css" href="../css/push/layout_head1cd26d.css" /> 
+  <link rel="stylesheet" type="text/css" href="../css/push/base1cf325.css" /> 
+  <link rel="stylesheet" type="text/css" href="../css/push/lib1cd20f.css" /> 
+  <link rel="stylesheet" href="../css/push/mass_send1cd20f.css" /> 
+  <link rel="stylesheet" type="text/css" href="../css/push/dropdown1cd20f.css" /> 
+  <!--[if lt IE 9]>
+            <script type="text/javascript" src="/weiphp/Public/static/jquery-1.10.2.min.js?v=20140412">
+            </script>
+        <![endif]--> 
+  <!--[if gte IE 9]>
+            <!--> 
+  <script type="text/javascript" src="../js/jquery-2.0.3.min.js"></script> 
+  <script type="text/javascript" src="../js/jquery.mousewheel.js"></script> 
+  <!--<![endif]--> 
+ </head> 
+ <body> 
+  <div class="header"> 
+   <span class="logo"> </span> 
+   <div class="user-bar"> 
+    <a href="javascript:;" class="user-entrance"> <i class="icon-user"> </i> </a> 
+    <ul class="nav-list user-menu hidden"> 
+     <li class="manager"> 你好， <em title="root"> root </em> </li> 
+     <li> <a href="http://localhost/weiphp/index.php?s=/home/index/main.html"> 返回前台 </a> </li> 
+     <li> <a href="http://localhost/weiphp/index.php?s=/admin/user/updatepassword.html"> 修改密码 </a> </li> 
+     <li> <a href="http://localhost/weiphp/index.php?s=/admin/user/updatenickname.html"> 修改昵称 </a> </li> 
+     <li> <a href="http://localhost/weiphp/index.php?s=/admin/public/logout.html"> 退出 </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div class="sidebar" onselectstart="return false"> 
+   <div id="subnav" class="subnav"> 
+    <h3> <i class="icon icon-unfold"> </i> 后台 </h3> 
+    <ul class="side-sub-menu"> 
+     <li> <a class="item" href=" "> 管理员信息 H</a> </li> 
+     <li> <a class="item" href="../view/add.html"> 添加公众号 </a> </li> 
+     <li> <a class="item" href="../view/main.html"> 公众号管理 </a> </li> 
+    </ul> 
+    <h3> <i class="icon icon-unfold"> </i> 功能 </h3> 
+    <ul class="side-sub-menu"> 
+     <li> <a class="item" href="../view/push.html"> 消息推送 H</a> </li> 
+     <li> <a class="item" href="../view/auto-reply.html"> 自动回复 </a> </li> 
+    </ul> 
+    <h3> <i class="icon icon-unfold"> </i> 管理 </h3> 
+    <ul class="side-sub-menu"> 
+     <li> <a class="item" href=" "> 消息管理 H</a> </li> 
+     <li> <a class="item" href=" "> 用户管理 H</a> </li> 
+     <li> <a class="item" href=" "> 素材管理 H</a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="main-content"> 
+   <div id="top-alert" class="fixed alert alert-error" style="display: none;"> 
+    <button class="close fixed" style="margin-top: 4px;"> &times; </button> 
+    <div class="alert-content">
+      状态栏在这里！ 
+    </div> 
+   </div> 
+   <div> 
+    <div class="tab-nav nav"> 
+     <ul> 
+      <li class="current"><a href="../view/push.html">新建消息</a></li> 
+      <li class=""><a href="../view/push-history.html">历史消息</a></li> 
+     </ul> 
+    </div> 
+    <div class="inner-main"> 
+     <div class="send_group_area"> 
+      <div class="send_group object"> 
+       <label class="label" for="">群发对象</label> 
+       <div id="js_sendObj" class="dropdown_menu"> 
+        <a href="javascript:;" class="btn dropdown_switch jsDropdownBt"><label class="jsBtLabel">全部用户</label><i class="arrow"></i></a> 
+        <ul class="dropdown_data_list jsDropdownList"> 
+         <li class="dropdown_data_item"> <a href="javascript:;" class="jsDropdownItem" data-value="-1" data-index="0" data-name="全部用户">全部用户</a> </li> 
+         <li class="dropdown_data_item"> <a href="javascript:;" class="jsDropdownItem" data-value="group" data-index="1" data-name="按分组选择">按分组选择</a> </li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div class="send_group"> 
+       <label class="label" for="">性别</label> 
+       <div id="js_sex" class="dropdown_menu"> 
+        <a href="javascript:;" class="btn dropdown_switch jsDropdownBt"><label class="jsBtLabel">全部</label><i class="arrow"></i></a> 
+        <ul class="dropdown_data_list jsDropdownList" style="display: none;"> 
+         <li class="dropdown_data_item"> <a href="javascript:;" class="jsDropdownItem" data-value="0" data-index="0" data-name="全部">全部</a> </li> 
+         <li class="dropdown_data_item"> <a href="javascript:;" class="jsDropdownItem" data-value="1" data-index="1" data-name="男">男</a> </li> 
+         <li class="dropdown_data_item"> <a href="javascript:;" class="jsDropdownItem" data-value="2" data-index="2" data-name="女">女</a> </li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div class="send_group"> 
+       <div id="js_region" class="send_group"> 
+        <label class="label" for="">群发地区</label> 
+        <div id="js_country8663" style="" class="dropdown_menu"> 
+         <a href="javascript:;" class="btn dropdown_switch jsDropdownBt"><label class="jsBtLabel">国家</label><i class="arrow"></i></a> 
+        </div> 
+        <div id="js_province3818" style="display:none"></div> 
+        <div id="js_city8084" style="display:none"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="js_msgSender" class="msg_sender"> 
+      <div class="msg_tab"> 
+       <ul class="tab_navs" vertical-align="center"> 
+        <li class="tab_nav tab_text width5 selected" data-type="1" data-tab=".js_textArea"> <a href="javascript:void(0);">文字</a> </li> 
+        <li class="tab_nav tab_img width5" data-type="2" data-tab=".js_imgArea"> <a href="javascript:void(0);">图片</a> </li> 
+        <li class="tab_nav tab_audio width5" data-type="3" data-tab=".js_audioArea"> <a href="javascript:void(0);">语音</a> </li> 
+        <li class="tab_nav tab_video width5" data-type="15" data-tab=".js_videoArea"> <a href="javascript:void(0);">视频</a> </li> 
+        <li class="tab_nav tab_appmsg width5 no_extra" data-type="10" data-tab=".js_appmsgArea"> <a href="javascript:void(0);">图文消息</a> </li> 
+       </ul> 
+       <div class="tab_panel"> 
+        <div class="tab_content" style="display: block;"> 
+         <div class="js_textArea inner no_extra"> 
+          <div class="emotion_editor"> 
+           <div class="edit_area js_editorArea" style="display: none;"></div> 
+           <div class="edit_area js_editorArea" contenteditable="true" style="overflow-y: auto; overflow-x: hidden;"></div> 
+           <div class="editor_toolbar"> 
+            <p class="editor_tip js_editorTip">还可以输入<em>600</em>字</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="form-item"> 
+      <button class="home_btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">群发</button> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+    (function(){
+        var ThinkPHP = window.Think = {
+            "ROOT"   : "..", //当前网站地址
+            "APP"    : "../main.html", //当前项目地址
+            "PUBLIC" : "/weiphp/Public", //项目公共目录地址
+            "DEEP"   : "/", //PATHINFO分割符
+            "MODEL"  : ["3", "1", "html"],
+            "VAR"    : ["m", "c", "a"]
+        }
+    })();
+
+  </script> 
+   <script type="text/javascript" src="../js/think.js"></script> 
+   <script type="text/javascript" src="../js/common.js"></script> 
+   <script type="text/javascript">
+            +function(){
+                var $window = $(window), $subnav = $("#subnav"), url;
+                $window.resize(function(){
+                $("#main").css("min-height", $window.height() - 130);
+                }).resize();
+
+                /* 左边菜单高亮 */
+                url = window.location.pathname + window.location.search;
+                url = url.replace(/(\/(p)\/\d+)|(&p=\d+)|(\/(id)\/\d+)|(&id=\d+)|(\/(group)\/\d+)|(&group=\d+)/, "");
+                $subnav.find("a[href$='" + url + "']").parent().addClass("current");
+
+                /* 左边菜单显示收起 */
+                $("#subnav").on("click", "h3",
+                function() {
+                    var $this = $(this);
+                    $this.find(".icon").toggleClass("icon-fold");
+                    $this.next().slideToggle("fast").siblings(".side-sub-menu:visible").prev("h3").find("i").addClass("icon-fold").end().end().hide();
+                });
+
+                $("#subnav h3 a").click(function(e) {
+                    e.stopPropagation()
+                });
+
+                /* 头部管理员菜单 */
+                $(".user-bar").mouseenter(function() {
+                    var userMenu = $(this).children(".user-menu ");
+                    userMenu.removeClass("hidden");
+                    clearTimeout(userMenu.data("timeout"));
+                }).mouseleave(function() {
+                    var userMenu = $(this).children(".user-menu");
+                    userMenu.data("timeout") && clearTimeout(userMenu.data("timeout"));
+                    userMenu.data("timeout", setTimeout(function() {
+                        userMenu.addClass("hidden")
+                    },
+                    100));
+                });
+
+                /* 表单获取焦点变色 */
+                $("form").on("focus", "input",
+                function() {
+                    $(this).addClass('focus');
+                }).on("blur", "input",
+                function() {
+                    $(this).removeClass('focus');
+                });
+                $("form").on("focus", "textarea",
+                function() {
+                    $(this).closest('label').addClass('focus');
+                }).on("blur", "textarea",
+                function() {
+                    $(this).closest('label').removeClass('focus');
+                });
+
+                // 导航栏超出窗口高度后的模拟滚动条
+                var sHeight = $(".sidebar").height();
+                var subHeight = $(".subnav").height();
+                var diff = subHeight - sHeight; //250
+                var sub = $(".subnav");
+                if (diff > 0) {
+                    $(window).mousewheel(function(event, delta) {
+                        if (delta > 0) {
+                            if (parseInt(sub.css('marginTop')) > -10) {
+                                sub.css('marginTop', '0px');
+                            } else {
+                                sub.css('marginTop', '+=' + 10);
+                            }
+                        } else {
+                            if (parseInt(sub.css('marginTop')) < '-' + (diff - 10)) {
+                                sub.css('marginTop', '-' + (diff - 10));
+                            } else {
+                                sub.css('marginTop', '-=' + 10);
+                            }
+                        }
+                    });
+                }
+            } ();
+        </script> 
+  </div>  
+ </body>
+</html>

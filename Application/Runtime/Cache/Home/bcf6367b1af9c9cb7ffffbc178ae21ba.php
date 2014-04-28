@@ -1,0 +1,74 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>海星来一发！</title>
+ 
+<script type="text/javascript">
+ 
+var xmlHttp;
+ 
+function createXMLHttpRequest() {
+    if (window.ActiveXObject) {
+        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    else if (window.XMLHttpRequest) {
+        xmlHttp = new XMLHttpRequest();
+    }
+}
+
+function createXML() {
+    var xml = "<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName> <CreateTime>1348831860</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[this is a test]]></Content><MsgId>1234567890123456</MsgId></xml>";
+    return xml;
+}
+ 
+function sendXML() {
+    createXMLHttpRequest();
+ 
+    var xml = createXML();
+    var url = "index";
+ 
+    xmlHttp.open("POST", url, true);
+    xmlHttp.onreadystatechange = handleStateChange;
+    xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+    xmlHttp.send(xml);
+}
+ 
+function handleStateChange() {
+    if(xmlHttp.readyState == 4) {
+        if(xmlHttp.status == 200) {
+            parseResults();
+        }
+    }
+}
+ 
+function parseResults() {
+    var responseDiv = document.getElementById("serverResponse");
+    if(responseDiv.hasChildNodes()) {
+        responseDiv.removeChild(responseDiv.childNodes[0]);
+    }
+ 
+    var responseText = document.createTextNode(xmlHttp.responseText);
+    responseDiv.appendChild(responseText);
+}
+ 
+ 
+</script>
+</head>
+
+<body>
+  <h1>你要啥类型的XML</h1>
+ 
+  <form action="index">
+    <select id="MsgType" size="1" multiple="true">
+        <option value="text">text</option>
+  </select>
+ 
+  <br/><br/>
+  <input type="button" value="Submit" onclick="sendXML();"/>
+</form>
+ 
+<h2>海星回一发:</h2>
+ 
+<div id="serverResponse"></div>
+</html>

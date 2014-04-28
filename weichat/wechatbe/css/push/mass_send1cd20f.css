@@ -1,0 +1,84 @@
+.page_mass_send .sub_title_bar {
+	padding-top: 10px;
+	padding-bottom: 16px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	border-bottom-width: 0
+}
+
+.page_mass_send .tool_area {
+	padding-top: 14px
+}
+
+.page_mass_send .tool_bar {
+	margin-left: 0;
+	margin-right: 0;
+	text-align: left
+}
+
+.page_mass_send .tool_bar .btn {
+	margin-left: 0
+}
+
+.page_mass_send .tool_bar .verifycode {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-bottom: 10px
+}
+
+.page_mass_send .msg_sender {
+	margin: 20px 20px
+}
+
+.send_group_area {
+	margin: 0 0 10px;
+}
+
+.send_group {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: top;
+	margin-right: 16px;
+	margin-right: 16px;
+}
+
+.send_group .label {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .5em
+}
+
+.send_group .dropdown_menu {
+	vertical-align: middle;
+	margin-right: 16px
+}
+
+.mass_send_tips {
+	float: right;
+	color: #b11516
+}
+
+.mass_send_tips i {
+	margin-right: 3px
+}
+
+.mass_send_tips i,.mass_send_tips em {
+	font-weight: 400;
+	font-style: normal
+}
+
+.mass_send_function em {
+	font-weight: 400;
+	font-style: normal
+}
+
+.warn_tips {
+	width: 430px;
+	margin-top: 10px;
+	color: #7b7b7b
+}

@@ -1,0 +1,399 @@
+[ 2014-04-23T09:14:54+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2014-04-23T09:16:58+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2014-04-23T09:16:59+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2014-04-23T09:17:02+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2014-04-23T10:00:11+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+ERR: Think\Controller:valid方法不存在！
+
+[ 2014-04-23T10:00:34+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+ERR: Think\Controller:checkSignature方法不存在！
+
+[ 2014-04-23T10:00:59+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/weixin_php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_platform` [ RunTime:0.001071s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wx_platform`
+SQL: SELECT * FROM `wx_platform`  [ RunTime:0.000207s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wx_platform` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2014-04-23T10:01:13+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/weixin_php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_platform` [ RunTime:0.000395s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wx_platform`
+SQL: SELECT * FROM `wx_platform`  [ RunTime:0.000086s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wx_platform` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2014-04-23T10:01:23+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+
+[ 2014-04-23T10:01:30+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/weixin_php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_platform` [ RunTime:0.000421s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wx_platform`
+SQL: SELECT * FROM `wx_platform`  [ RunTime:0.000110s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wx_platform` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000128s ]
+
+[ 2014-04-23T10:02:02+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/weixin_php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_platform` [ RunTime:0.000456s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wx_platform`
+SQL: SELECT * FROM `wx_platform`  [ RunTime:0.000199s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wx_platform` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000214s ]
+
+[ 2014-04-23T10:02:03+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/weixin_php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_platform` [ RunTime:0.000456s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wx_platform`
+SQL: SELECT * FROM `wx_platform`  [ RunTime:0.000190s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wx_platform` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000203s ]
+
+[ 2014-04-23T10:02:34+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/weixin_php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_platform` [ RunTime:0.000354s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wx_platform`
+SQL: SELECT * FROM `wx_platform`  [ RunTime:0.000076s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wx_platform` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2014-04-23T10:02:35+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/weixin_php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_platform` [ RunTime:0.000368s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wx_platform`
+SQL: SELECT * FROM `wx_platform`  [ RunTime:0.000074s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wx_platform` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2014-04-23T10:02:35+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/weixin_php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_platform` [ RunTime:0.000346s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wx_platform`
+SQL: SELECT * FROM `wx_platform`  [ RunTime:0.000060s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wx_platform` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2014-04-23T10:02:35+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/weixin_php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_platform` [ RunTime:0.000338s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wx_platform`
+SQL: SELECT * FROM `wx_platform`  [ RunTime:0.000056s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wx_platform` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2014-04-23T10:02:35+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/weixin_php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_platform` [ RunTime:0.000356s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wx_platform`
+SQL: SELECT * FROM `wx_platform`  [ RunTime:0.000059s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wx_platform` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2014-04-23T10:02:36+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined index: echostr /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: signature /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined index: timestamp /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined index: nonce /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' /var/www/weixin_php/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/weixin_php/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_platform` [ RunTime:0.000937s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wx_platform`
+SQL: SELECT * FROM `wx_platform`  [ RunTime:0.000202s ]
+ERR: 1146:Table 'wx.wx_platform' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wx_platform` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2014-04-23T10:04:46+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+
+[ 2014-04-23T10:05:36+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+
+[ 2014-04-23T10:05:37+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+
+[ 2014-04-23T13:35:22+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009785s ]
+
+[ 2014-04-23T13:37:17+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2014-04-23T14:05:09+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+
+[ 2014-04-23T14:05:25+08:00 ] 127.0.0.1 /weixin_php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2014-04-23T14:06:29+08:00 ] 127.0.0.1 /weixin_php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+

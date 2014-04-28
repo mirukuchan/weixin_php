@@ -1,41 +1,26 @@
 <?php
+// +----------------------------------------------------------------------
+// | ThinkPHP [ WE CAN DO IT JUST THINK ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2006-2014 http://thinkphp.cn All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: liu21st <liu21st@gmail.com>
+// +----------------------------------------------------------------------
 
+// 应用入口文件
 
+// 检测PHP环境
+if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 
-/**
- * 微信接入验证
- * 在入口进行验证而不是放到框架里验证，主要是解决验证URL超时的问题
- * 接口先写上，测试的时候取消注册
- */
-/*
-if (! empty ( $_GET ['echostr'] ) && ! empty ( $_GET ["signature"] ) && ! empty ( $_GET ["nonce"] )) {
-	$signature = $_GET ["signature"];
-	$timestamp = $_GET ["timestamp"];
-	$nonce = $_GET ["nonce"];
-	$token = $_GET ["token"];
-	
-	$tmpArr = array (
-			$token,
-			$timestamp,
-			$nonce 
-	);
-	sort ( $tmpArr, SORT_STRING );
-	$tmpStr = sha1 ( implode ( $tmpArr ) );
-	
-	if ($tmpStr == $signature) {
-		echo $_GET ["echostr"];
-	}
-	exit ();
-}*/
+// 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
+define('APP_DEBUG',True);
 
-	define('APP_DEBUG',true);//开发完后定义为FALSE
+// 定义应用目录
+define('APP_PATH','./Application/');
 
-	define('APP_NAME','app');//
+// 引入ThinkPHP入口文件
+require './ThinkPHP/ThinkPHP.php';
 
-	define('APP_PATH','./APP/');//项目完成后上线的时候转移到其他目录
-
-	define('RUNTIME_PATH','./RUNTIME/');//缓存目录，项目上线的时候转移到其他目录
-
-	require './ThinkPHP/ThinkPHP.php';
-
-?>
+// 亲^_^ 后面不需要任何代码了 就是如此简单
